@@ -1,0 +1,23 @@
+Pour créer un programme de gestion d'inventaire pour un jeu vidéo de type RPG en Java sur Eclipse, en utilisant le modèle MVC (Modèle-Vue-Contrôleur) et une interface en mode console, voici un plan détaillé que vous pouvez suivre :
+1. Configuration de l'environnement de développement
+
+    Installer Java: Assurez-vous que Java JDK est installé sur votre machine.
+    Installer Eclipse: Téléchargez et installez Eclipse IDE pour développeurs Java.
+    Configurer un nouveau projet Java:
+        Ouvrez Eclipse.
+        Allez dans File > New > Java Project.
+        Nommez votre projet, par exemple "GestionInventaireRPG".
+
+2. Structure du projet MVC
+
+Vous allez diviser votre projet en trois parties principales : Modèle, Vue, et Contrôleur.
+
+    Modèle (Model) : Gère les données et la logique métier.
+        Item.java : Classe pour représenter un objet dans l'inventaire.
+        Inventory.java : Classe pour gérer la liste des objets.
+
+    Vue (View) : Gère toute la sortie vers l'utilisateur en mode console.
+        ConsoleView.java : Classe pour afficher les menus et les messages à l'utilisateur.
+
+    Contrôleur (Controller) : Fait le lien entre le modèle et la vue, gère les entrées utilisateur.
+        InventoryController.java : Classe pour manipuler les données d'inventaire et communiquer avec la vue.
